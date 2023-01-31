@@ -1,0 +1,692 @@
+{
+  "storage": [
+    {
+      "astId": 4084,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "_initialized",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_uint8"
+    },
+    {
+      "astId": 4087,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "_initializing",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 5353,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 4374,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "_balances",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_mapping(t_address,t_uint256)"
+    },
+    {
+      "astId": 4380,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "_allowances",
+      "offset": 0,
+      "slot": "52",
+      "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))"
+    },
+    {
+      "astId": 4382,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "_totalSupply",
+      "offset": 0,
+      "slot": "53",
+      "type": "t_uint256"
+    },
+    {
+      "astId": 4384,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "_name",
+      "offset": 0,
+      "slot": "54",
+      "type": "t_string_storage"
+    },
+    {
+      "astId": 4386,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "_symbol",
+      "offset": 0,
+      "slot": "55",
+      "type": "t_string_storage"
+    },
+    {
+      "astId": 4965,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "56",
+      "type": "t_array(t_uint256)45_storage"
+    },
+    {
+      "astId": 6647,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "asset",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_address"
+    },
+    {
+      "astId": 6651,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "__gaps",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_array(t_uint256)50_storage"
+    },
+    {
+      "astId": 3956,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "_owner",
+      "offset": 0,
+      "slot": "152",
+      "type": "t_address"
+    },
+    {
+      "astId": 4076,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "153",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 4249,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "_paused",
+      "offset": 0,
+      "slot": "202",
+      "type": "t_bool"
+    },
+    {
+      "astId": 4354,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "__gap",
+      "offset": 0,
+      "slot": "203",
+      "type": "t_array(t_uint256)49_storage"
+    },
+    {
+      "astId": 15180,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "state",
+      "offset": 0,
+      "slot": "252",
+      "type": "t_struct(State)9151_storage"
+    },
+    {
+      "astId": 15184,
+      "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+      "label": "__gaps",
+      "offset": 0,
+      "slot": "336",
+      "type": "t_array(t_uint256)50_storage"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_uint256)45_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[45]",
+      "numberOfBytes": "1440"
+    },
+    "t_array(t_uint256)49_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[49]",
+      "numberOfBytes": "1568"
+    },
+    "t_array(t_uint256)50_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[50]",
+      "numberOfBytes": "1600"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_contract(IAToken)218": {
+      "encoding": "inplace",
+      "label": "contract IAToken",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IBalancerVault)7822": {
+      "encoding": "inplace",
+      "label": "contract IBalancerVault",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IDebtToken)7193": {
+      "encoding": "inplace",
+      "label": "contract IDebtToken",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IDnGmxBatchingManager)7365": {
+      "encoding": "inplace",
+      "label": "contract IDnGmxBatchingManager",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IWaterVault)7628": {
+      "encoding": "inplace",
+      "label": "contract IWaterVault",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IERC20)5551": {
+      "encoding": "inplace",
+      "label": "contract IERC20",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IERC20Metadata)5576": {
+      "encoding": "inplace",
+      "label": "contract IERC20Metadata",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IGlpManager)7920": {
+      "encoding": "inplace",
+      "label": "contract IGlpManager",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IPool)1121": {
+      "encoding": "inplace",
+      "label": "contract IPool",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IPoolAddressesProvider)1330": {
+      "encoding": "inplace",
+      "label": "contract IPoolAddressesProvider",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IPriceOracle)1350": {
+      "encoding": "inplace",
+      "label": "contract IPriceOracle",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IRewardRouterV2)8103": {
+      "encoding": "inplace",
+      "label": "contract IRewardRouterV2",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IRewardTracker)8203": {
+      "encoding": "inplace",
+      "label": "contract IRewardTracker",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IRewardsController)3657": {
+      "encoding": "inplace",
+      "label": "contract IRewardsController",
+      "numberOfBytes": "20"
+    },
+    "t_contract(ISwapRouter)6620": {
+      "encoding": "inplace",
+      "label": "contract ISwapRouter",
+      "numberOfBytes": "20"
+    },
+    "t_contract(IVault)8769": {
+      "encoding": "inplace",
+      "label": "contract IVault",
+      "numberOfBytes": "20"
+    },
+    "t_int256": {
+      "encoding": "inplace",
+      "label": "int256",
+      "numberOfBytes": "32"
+    },
+    "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => mapping(address => uint256))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_address,t_uint256)"
+    },
+    "t_mapping(t_address,t_uint256)": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => uint256)",
+      "numberOfBytes": "32",
+      "value": "t_uint256"
+    },
+    "t_string_storage": {
+      "encoding": "bytes",
+      "label": "string",
+      "numberOfBytes": "32"
+    },
+    "t_struct(State)9151_storage": {
+      "encoding": "inplace",
+      "label": "struct VodkaVaultManager.State",
+      "members": [
+        {
+          "astId": 9035,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "keeper",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_address"
+        },
+        {
+          "astId": 9037,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "feeRecipient",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_address"
+        },
+        {
+          "astId": 9039,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "dnUsdcDeposited",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_int256"
+        },
+        {
+          "astId": 9041,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "unhedgedGlpInUsdc",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 9043,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "targetHealthFactor",
+          "offset": 0,
+          "slot": "4",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 9045,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "protocolFee",
+          "offset": 0,
+          "slot": "5",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 9047,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "protocolEsGmx",
+          "offset": 0,
+          "slot": "6",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 9049,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "waterVaultWethRewards",
+          "offset": 0,
+          "slot": "7",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 9051,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "hasFlashloaned",
+          "offset": 0,
+          "slot": "8",
+          "type": "t_bool"
+        },
+        {
+          "astId": 9053,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "lastRebalanceTS",
+          "offset": 1,
+          "slot": "8",
+          "type": "t_uint48"
+        },
+        {
+          "astId": 9055,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "feeBps",
+          "offset": 7,
+          "slot": "8",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 9057,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "withdrawFeeBps",
+          "offset": 9,
+          "slot": "8",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 9059,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "feeTierWethWbtcPool",
+          "offset": 11,
+          "slot": "8",
+          "type": "t_uint24"
+        },
+        {
+          "astId": 9061,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "depositCap",
+          "offset": 0,
+          "slot": "9",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 9063,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "slippageThresholdGmxBps",
+          "offset": 0,
+          "slot": "10",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 9065,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "slippageThresholdSwapBtcBps",
+          "offset": 2,
+          "slot": "10",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 9067,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "slippageThresholdSwapEthBps",
+          "offset": 4,
+          "slot": "10",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 9069,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "rebalanceHfThresholdBps",
+          "offset": 6,
+          "slot": "10",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 9071,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "rebalanceTimeThreshold",
+          "offset": 8,
+          "slot": "10",
+          "type": "t_uint32"
+        },
+        {
+          "astId": 9073,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "rebalanceDeltaThresholdBps",
+          "offset": 12,
+          "slot": "10",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 9075,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "wethConversionThreshold",
+          "offset": 14,
+          "slot": "10",
+          "type": "t_uint128"
+        },
+        {
+          "astId": 9077,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "usdcConversionThreshold",
+          "offset": 0,
+          "slot": "11",
+          "type": "t_uint128"
+        },
+        {
+          "astId": 9079,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "hedgeUsdcAmountThreshold",
+          "offset": 16,
+          "slot": "11",
+          "type": "t_uint128"
+        },
+        {
+          "astId": 9081,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "partialBtcHedgeUsdcAmountThreshold",
+          "offset": 0,
+          "slot": "12",
+          "type": "t_uint128"
+        },
+        {
+          "astId": 9083,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "partialEthHedgeUsdcAmountThreshold",
+          "offset": 16,
+          "slot": "12",
+          "type": "t_uint128"
+        },
+        {
+          "astId": 9086,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "fsGlp",
+          "offset": 0,
+          "slot": "13",
+          "type": "t_contract(IERC20)5551"
+        },
+        {
+          "astId": 9089,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "glp",
+          "offset": 0,
+          "slot": "14",
+          "type": "t_contract(IERC20Metadata)5576"
+        },
+        {
+          "astId": 9092,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "usdc",
+          "offset": 0,
+          "slot": "15",
+          "type": "t_contract(IERC20Metadata)5576"
+        },
+        {
+          "astId": 9095,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "weth",
+          "offset": 0,
+          "slot": "16",
+          "type": "t_contract(IERC20Metadata)5576"
+        },
+        {
+          "astId": 9098,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "wbtc",
+          "offset": 0,
+          "slot": "17",
+          "type": "t_contract(IERC20Metadata)5576"
+        },
+        {
+          "astId": 9101,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "pool",
+          "offset": 0,
+          "slot": "18",
+          "type": "t_contract(IPool)1121"
+        },
+        {
+          "astId": 9104,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "aUsdc",
+          "offset": 0,
+          "slot": "19",
+          "type": "t_contract(IAToken)218"
+        },
+        {
+          "astId": 9107,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "vWbtc",
+          "offset": 0,
+          "slot": "20",
+          "type": "t_contract(IDebtToken)7193"
+        },
+        {
+          "astId": 9110,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "vWeth",
+          "offset": 0,
+          "slot": "21",
+          "type": "t_contract(IDebtToken)7193"
+        },
+        {
+          "astId": 9113,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "oracle",
+          "offset": 0,
+          "slot": "22",
+          "type": "t_contract(IPriceOracle)1350"
+        },
+        {
+          "astId": 9116,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "aaveRewardsController",
+          "offset": 0,
+          "slot": "23",
+          "type": "t_contract(IRewardsController)3657"
+        },
+        {
+          "astId": 9119,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "poolAddressProvider",
+          "offset": 0,
+          "slot": "24",
+          "type": "t_contract(IPoolAddressesProvider)1330"
+        },
+        {
+          "astId": 9122,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "gmxVault",
+          "offset": 0,
+          "slot": "25",
+          "type": "t_contract(IVault)8769"
+        },
+        {
+          "astId": 9125,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "sGmx",
+          "offset": 0,
+          "slot": "26",
+          "type": "t_contract(IRewardTracker)8203"
+        },
+        {
+          "astId": 9128,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "glpManager",
+          "offset": 0,
+          "slot": "27",
+          "type": "t_contract(IGlpManager)7920"
+        },
+        {
+          "astId": 9131,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "rewardRouter",
+          "offset": 0,
+          "slot": "28",
+          "type": "t_contract(IRewardRouterV2)8103"
+        },
+        {
+          "astId": 9134,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "mintBurnRewardRouter",
+          "offset": 0,
+          "slot": "29",
+          "type": "t_contract(IRewardRouterV2)8103"
+        },
+        {
+          "astId": 9137,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "swapRouter",
+          "offset": 0,
+          "slot": "30",
+          "type": "t_contract(ISwapRouter)6620"
+        },
+        {
+          "astId": 9140,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "balancerVault",
+          "offset": 0,
+          "slot": "31",
+          "type": "t_contract(IBalancerVault)7822"
+        },
+        {
+          "astId": 9143,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "WaterVault",
+          "offset": 0,
+          "slot": "32",
+          "type": "t_contract(IWaterVault)7628"
+        },
+        {
+          "astId": 9146,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "batchingManager",
+          "offset": 0,
+          "slot": "33",
+          "type": "t_contract(IDnGmxBatchingManager)7365"
+        },
+        {
+          "astId": 9150,
+          "contract": "contracts/vaults/VodkaVault.sol:VodkaVault",
+          "label": "__gaps",
+          "offset": 0,
+          "slot": "34",
+          "type": "t_array(t_uint256)50_storage"
+        }
+      ],
+      "numberOfBytes": "2688"
+    },
+    "t_uint128": {
+      "encoding": "inplace",
+      "label": "uint128",
+      "numberOfBytes": "16"
+    },
+    "t_uint16": {
+      "encoding": "inplace",
+      "label": "uint16",
+      "numberOfBytes": "2"
+    },
+    "t_uint24": {
+      "encoding": "inplace",
+      "label": "uint24",
+      "numberOfBytes": "3"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint32": {
+      "encoding": "inplace",
+      "label": "uint32",
+      "numberOfBytes": "4"
+    },
+    "t_uint48": {
+      "encoding": "inplace",
+      "label": "uint48",
+      "numberOfBytes": "6"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}
