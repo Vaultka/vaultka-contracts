@@ -6,7 +6,6 @@
 
 This repository contains the Vaultka smart contracts. You can find more info in the [docs](https://vaultka.gitbook.io/vaultka/).
 
-## Scripts:
 
 ## Licensing
 
